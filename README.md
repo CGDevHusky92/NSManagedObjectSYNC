@@ -10,7 +10,9 @@ How To Use
 
 To use this drag and drop NSManagedObject+SYNC.h/.m into your project and then add:
 
+```Objective-C
 #import "NSManagedObject+SYNC.h"
+```
 
 to the header file of each NSManagedObject subclasses. Make sure that you create objectId's in each managed object. Also the relationships have a naming convention for now.
 
